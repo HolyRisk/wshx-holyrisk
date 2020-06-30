@@ -1,0 +1,17 @@
+{
+    "name": "holyrisk/wshx-holyrisk",
+    "description": "php code",
+    "authors": [
+        {
+            "name": "Holyrisk",
+            "email": "792034260@qq.com"
+        }
+    ],
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
