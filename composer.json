@@ -7,6 +7,8 @@
             "email": "792034260@qq.com"
         }
     ],
+    "homepage": "https://wangshengxian.com/",
+    "license": "Apache-2.0",
     "require": {},
     "autoload": {
         "psr-4": {
