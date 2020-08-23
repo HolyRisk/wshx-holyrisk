@@ -1,11 +1,9 @@
 <?php
 /**
- * @description 执行入口
+ * @description 爬取笔趣阁 小说  入口 [章节列表]
  * @author Holyrisk
  * @date 2020/6/30 12:22
  */
-
-
 
 /**
  * 定义入口
@@ -20,6 +18,4 @@ $config = new Config();
 $configDb = $config::get('database',null,'default');
 Db::setConfig($configDb);
 
-//$list =Db::name('class')->select();
-//var_dump($list);
-\library\core\App::runData();
+\app\spider\command\Run::biqugeList();

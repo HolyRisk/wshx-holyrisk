@@ -1,7 +1,11 @@
 <?php
+/**
+ * @description 笔趣阁 小说 爬取  https://www.236n.cn/
+ * @author Holyrisk
+ * @date 2020/8/23 9:47
+ */
 
-
-namespace app\spider;
+namespace app\spider\biquge;
 
 use app\spider\model\BookContent;
 use app\spider\model\BookList;
@@ -13,6 +17,13 @@ use think\facade\Db;
 class GetSpider
 {
 
+    /**
+     * @description 小说章节目录列表 入库
+     * @author Holyrisk
+     * @date 2020/8/23 9:48
+     * @param $book
+     * @return array|string
+     */
     public function run($book)
     {
         $model = new BookList();
@@ -100,6 +111,13 @@ class GetSpider
 
     }
 
+    /**
+     * @description 小说文章内容详情 入库
+     * @author Holyrisk
+     * @date 2020/8/23 9:48
+     * @param $book
+     * @return int|string
+     */
     public function runData($book)
     {
         $url = $book['book']['domain'].$book['url'];

@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @description 小说名称信息概要 模型
+ * @author Holyrisk
+ * @date 2020/8/23 9:43
+ */
 
 namespace app\spider\model;
 
