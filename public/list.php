@@ -22,4 +22,4 @@ Db::setConfig($configDb);
 
 //$list =Db::name('class')->select();
 //var_dump($list);
-\library\core\App::run();
+\library\core\App::runList();

@@ -9,7 +9,11 @@
     ],
     "homepage": "https://wangshengxian.com/",
     "license": "Apache-2.0",
-    "require": {},
+    "require": {
+        "jaeger/querylist": "^4.2",
+        "topthink/think-orm": "^2.0",
+        "owner888/phpspider": "^2.1"
+    },
     "autoload": {
         "psr-4": {
             "app\\": "application",
