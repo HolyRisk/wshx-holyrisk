@@ -7,6 +7,7 @@
 
 namespace app\spider\command;
 
+use app\spider\biquge\GetSpider;
 use app\spider\model\Book;
 use app\spider\model\BookContent;
 use app\spider\model\BookList;
@@ -26,7 +27,7 @@ class Run
         {
             echo date("Y-m-d H:i:s",time()).' 没有需要处理的数据'.PHP_EOL;
             sleep(5);
-            self::runList();
+            self::biqugeList();
         }
         else
         {
@@ -62,7 +63,7 @@ class Run
         {
             echo date("Y-m-d H:i:s",time()).' 没有需要处理的数据'.PHP_EOL;
             sleep(10);
-            self::runData();
+            self::biqugeData();
         }
         else
         {

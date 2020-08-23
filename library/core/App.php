@@ -7,10 +7,6 @@
 
 namespace library\core;
 
-use app\spider\GetSpider;
-use app\spider\model\BookContent;
-use app\spider\model\BookList;
-use app\spider\model\Book;
 
 class App
 {
