@@ -2,7 +2,8 @@
 SQLyog 企业版 - MySQL GUI v8.14 
 MySQL - 5.5.53 : Database - aaa
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -59,17 +60,6 @@ CREATE TABLE `book_list` (
 ) ENGINE=MyISAM AUTO_INCREMENT=1140 DEFAULT CHARSET=utf8mb4;
 
 /*Table structure for table `class` */
-
-DROP TABLE IF EXISTS `class`;
-
-CREATE TABLE `class` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) DEFAULT NULL,
-  `sex` char(10) DEFAULT NULL,
-  `age` int(11) DEFAULT NULL,
-  `from` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
